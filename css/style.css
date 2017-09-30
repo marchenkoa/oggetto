@@ -1,0 +1,396 @@
+*{
+	margin : 0px;
+	padding: 0px;
+}
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900');
+
+#header {
+	width: 100%;
+	padding-bottom:35px;
+	background:black;
+	padding-top: 35px;
+}
+
+.cats{
+	width:200px;
+	height:200px;
+	background-image:url(../image/prob1.png);
+	float:right;
+	
+}
+
+
+#why{
+	width:100%;
+	height:650px;
+	background-image:url(../image/cosmo.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	
+}
+
+#why h1{
+font-size:60px;	
+color:white;
+}
+
+#why p{
+	font-size:40px;
+	color:white;
+}
+#why span{
+	font-size:50px;
+}
+
+
+
+
+#yourself{
+	background:#040203;
+	width: 100%;
+	height:430px;
+	padding-top: 65px;
+	border-bottom:5px solid #ffffff;
+	
+}
+
+
+#yourself ul {
+	list-style-type: none;
+	margin-top: 50px;
+
+ 
+
+}
+
+#yourself li{
+	padding-right: 20px;
+	float: left; 
+
+
+}
+
+.self{
+	margin-bottom: 37px;
+	font-family: 'Lato Black' ,sans-serif; 
+	font-size: 30px;
+	font-weight: 500;
+	color:white;
+}
+
+
+.all_img{
+	float: left;
+	cursor: pointer;
+}
+
+.all_text{
+	float: left;
+	margin-left:20px;
+}
+
+.had{
+	font-family: 'Lato Black' ,sans-serif; 
+	font-size:22px;
+	font-weight: 300;
+	color:white;
+}
+
+.mini{
+	color:#b7b7b7;
+	font-family: 'Lato Regular' ,sans-serif; 
+	font-size: 15px;
+	
+}
+
+   a:visited {
+    color: white; 
+   }
+.sprite {
+	float:left;
+    background-image:url(../image/sprite1.png);
+    background-repeat: no-repeat;
+    display: block;
+
+}
+
+.sprite-one {
+    width: 50px;
+    height: 110px;
+	
+    background-position: -13px -0px;
+}
+
+.sprite-two {
+    width: 100px;
+    height: 111px;
+    background-position: -63px -0px;
+}
+
+.sprite-three {
+    width: 80px;
+    height: 112px;
+    background-position: -180px -0px;
+}
+
+.sprite-four {
+    width: 80px;
+    height: 110px;
+    background-position: -280px -13px;
+}
+.sprite-five {
+    width: 90px;
+    height: 110px;
+    background-position: 11px -125px;
+}
+.sprite-six {
+    width: 90px;
+    height: 110px;
+    background-position: -85px -127px;
+}
+
+#control{
+	width: 100%;
+	float: left;
+	overflow: hidden;
+}
+
+#control1{
+	width: 100%;
+	float: left;
+	overflow: hidden;
+}
+
+#content {
+
+top:50%;
+left:50%;
+width:900px;
+height:600px;
+}
+
+.legend {
+float:left;
+width:250px;
+margin-top:140px;
+}
+
+#content h1 {
+font-family:'Cabin Sketch', arial, serif;
+text-shadow:3px 3px 0 #ddd;
+color:#193340;
+font-size:40px;
+margin-bottom:40px;
+text-align:right;
+}
+
+.skills {
+float:left;
+clear:both;
+width:100%;
+}
+
+.skills ul,
+.skills li {
+display:block;
+list-style:none;
+margin:0;
+padding:0;
+}
+
+.skills li {
+float:right;
+clear:both;
+padding:0 15px;
+height:35px;
+line-height:35px;
+color:#fff;
+margin-bottom:1px;
+font-size:18px;
+}
+
+.skills .jq {
+background:#97BE0D;
+}
+
+.skills .css {
+background:#D84F5F;
+}
+
+.skills .html {
+background:#88B8E6;
+}
+
+.skills .php {
+background:#FF1493;
+}
+
+.skills .ps {
+background:#7B68EE;
+}
+
+
+#diagram {
+float:right;
+width:600px;
+height:600px;
+}
+
+.get {
+display:none;
+}
+
+	#containeron
+		{
+			width: 980px;
+			height: 70px;
+
+		}
+
+		abbr
+		{
+			border-bottom: 1px dotted #111;
+			cursor: help;
+		}
+
+		#info
+		{
+			width: 60px;
+			height: 60px;
+			background-color: rgba( 0, 0, 0, .05 );
+			-webkit-border-radius: 50%;
+			-moz-border-radius: 50%;
+			border-radius: 50%;
+			padding: 5px;
+			margin: 0 auto 50px;
+		}
+
+			#info:hover
+			{
+				background-color: rgba( 0, 0, 0, .1 );
+			}
+
+			#info abbr
+			{
+				height: 100%;
+				font-size: 2.188em;
+				font-weight: bold;
+				line-height: 1.4;
+				text-align: center;
+				text-shadow: 0 1px rgba( 0, 0, 0, .25 );
+				color: #fff;
+				background: #84e100;
+				background: -webkit-gradient( linear, left top, left bottom, from( #84e100 ), to( #6fbc00 ) );
+				background: -webkit-linear-gradient( top, #84e100, #6fbc00 );
+				background: -moz-linear-gradient( top, #84e100, #6fbc00 );
+				background: -ms-radial-gradient( top, #84e100, #6fbc00 );
+				background: -o-linear-gradient( top, #84e100, #6fbc00 );
+				background: linear-gradient( top, #84e100, #6fbc00 );
+				-webkit-border-radius: 50%;
+				-moz-border-radius: 50%;
+				border-radius: 50%;
+				border: none;
+				cursor: help;
+				display: block;
+			}
+
+			#info
+			{
+				text-decoration: none;
+			}
+
+		#tooltip
+		{
+			font-family: Ubuntu, sans-serif;
+			font-size: 0.875em;
+			text-align: center;
+			text-shadow: 0 1px rgba( 0, 0, 0, .5 );
+			line-height: 1.5;
+			color: #fff;
+			background: #333;
+			background: -webkit-gradient( linear, left top, left bottom, from( rgba( 0, 0, 0, .6 ) ), to( rgba( 0, 0, 0, .8 ) ) );
+			background: -webkit-linear-gradient( top, rgba( 0, 0, 0, .6 ), rgba( 0, 0, 0, .8 ) );
+			background: -moz-linear-gradient( top, rgba( 0, 0, 0, .6 ), rgba( 0, 0, 0, .8 ) );
+			background: -ms-radial-gradient( top, rgba( 0, 0, 0, .6 ), rgba( 0, 0, 0, .8 ) );
+			background: -o-linear-gradient( top, rgba( 0, 0, 0, .6 ), rgba( 0, 0, 0, .8 ) );
+			background: linear-gradient( top, rgba( 0, 0, 0, .6 ), rgba( 0, 0, 0, .8 ) );
+			-webkit-border-radius: 5px;
+			-moz-border-radius: 5px;
+			border-radius: 5px;
+			border-top: 1px solid #fff;
+			-webkit-box-shadow: 0 3px 5px rgba( 0, 0, 0, .3 );
+			-moz-box-shadow: 0 3px 5px rgba( 0, 0, 0, .3 );
+			box-shadow: 0 3px 5px rgba( 0, 0, 0, .3 );
+			position: absolute;
+			z-index: 100;
+			padding: 15px;
+		}
+
+			#tooltip:after
+			{
+		        width: 0;
+		        height: 0;
+		        border-left: 10px solid transparent;
+		        border-right: 10px solid transparent;
+		        border-top-color: #333;
+				border-top: 10px solid rgba( 0, 0, 0, .7 );
+				content: '';
+				
+				
+				bottom: -10px;
+				margin-left: -10px;
+			}
+
+				#tooltip.top:after
+				{
+			        border-top-color: transparent;
+			        border-bottom-color: #333;
+					border-bottom: 10px solid rgba( 0, 0, 0, .6 );
+					top: -20px;
+					bottom: auto;
+				}
+
+				#tooltip.left:after
+				{
+					left: 10px;
+					margin: 0;
+				}
+
+				#tooltip.right:after
+				{
+					right: 10px;
+					left: auto;
+					margin: 0;
+				}
+
+.centerr{
+margin:auto; 
+max-width: 970px; 
+}
+
+
+.codrops-header {
+	margin: 0 auto;
+	padding: 2em;
+	text-align: center;
+	max-width: 900px;
+	
+}
+
+.codrops-header h1 {
+	margin: 0;
+	font-size: 4.5em;
+	line-height: 1;
+	font-weight: 200;
+}
+
+.codrops-header h1 span {
+	display: block;
+	padding: 1em 0 1.5em;
+	font-size: 36%;
+	color: #95a5a6;
+	line-height: 1.4;
+}
+
+
+
